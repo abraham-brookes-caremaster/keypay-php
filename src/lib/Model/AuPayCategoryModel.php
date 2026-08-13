@@ -448,6 +448,7 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
     public const PAY_CATEGORY_TYPE_ETP_TYPE_O_TAXABLE = 'EtpTypeOTaxable';
     public const PAY_CATEGORY_TYPE_ETP_TYPE_O_TAX_FREE = 'EtpTypeOTaxFree';
     public const PAY_CATEGORY_TYPE_ETP_LUMP_SUM_D = 'EtpLumpSumD';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_LUMP_SUM_D = 'EtpSuperableLumpSumD';
     public const PAY_CATEGORY_TYPE_GENUINE_REDUNDANCY_LEAVE_LOADING = 'GenuineRedundancyLeaveLoading';
     public const PAY_CATEGORY_TYPE_METHOD_B2_ADDITIONAL_PAYMENTS_OPENING_BALANCE = 'MethodB2AdditionalPaymentsOpeningBalance';
     public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_O_TAXABLE = 'EtpSuperableTypeOTaxable';
@@ -578,6 +579,7 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
             self::PAY_CATEGORY_TYPE_ETP_TYPE_O_TAXABLE,
             self::PAY_CATEGORY_TYPE_ETP_TYPE_O_TAX_FREE,
             self::PAY_CATEGORY_TYPE_ETP_LUMP_SUM_D,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_LUMP_SUM_D,
             self::PAY_CATEGORY_TYPE_GENUINE_REDUNDANCY_LEAVE_LOADING,
             self::PAY_CATEGORY_TYPE_METHOD_B2_ADDITIONAL_PAYMENTS_OPENING_BALANCE,
             self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_O_TAXABLE,
