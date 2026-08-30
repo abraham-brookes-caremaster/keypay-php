@@ -288,6 +288,13 @@ class AuInitialEarningsModel implements ModelInterface, ArrayAccess, \JsonSerial
     public const PAY_CATEGORY_TYPE_UNUSED_LEAVE_PAYMENT_NORMAL_TERMINATION = 'UnusedLeavePaymentNormalTermination';
     public const PAY_CATEGORY_TYPE_BACK_PAYMENT = 'BackPayment';
     public const PAY_CATEGORY_TYPE_PAID_FAMILY_AND_DOMESTIC_VIOLENCE_LEAVE = 'PaidFamilyAndDomesticViolenceLeave';
+    public const PAY_CATEGORY_TYPE_GST = 'GST';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_D = 'EtpTypeD';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_N = 'EtpTypeN';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_B = 'EtpTypeB';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_T = 'EtpTypeT';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAXABLE = 'EtpSuperableTypeRTaxable';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAX_FREE = 'EtpSuperableTypeRTaxFree';
 
     /**
      * Gets allowable values of the enum
@@ -333,6 +340,13 @@ class AuInitialEarningsModel implements ModelInterface, ArrayAccess, \JsonSerial
             self::PAY_CATEGORY_TYPE_UNUSED_LEAVE_PAYMENT_NORMAL_TERMINATION,
             self::PAY_CATEGORY_TYPE_BACK_PAYMENT,
             self::PAY_CATEGORY_TYPE_PAID_FAMILY_AND_DOMESTIC_VIOLENCE_LEAVE,
+            self::PAY_CATEGORY_TYPE_GST,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_D,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_N,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_B,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_T,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAXABLE,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAX_FREE,
         ];
     }
 
