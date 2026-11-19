@@ -448,6 +448,7 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
     public const PAY_CATEGORY_TYPE_ETP_TYPE_O_TAXABLE = 'EtpTypeOTaxable';
     public const PAY_CATEGORY_TYPE_ETP_TYPE_O_TAX_FREE = 'EtpTypeOTaxFree';
     public const PAY_CATEGORY_TYPE_ETP_LUMP_SUM_D = 'EtpLumpSumD';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_LUMP_SUM_D = 'EtpSuperableLumpSumD';
     public const PAY_CATEGORY_TYPE_GENUINE_REDUNDANCY_LEAVE_LOADING = 'GenuineRedundancyLeaveLoading';
     public const PAY_CATEGORY_TYPE_METHOD_B2_ADDITIONAL_PAYMENTS_OPENING_BALANCE = 'MethodB2AdditionalPaymentsOpeningBalance';
     public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_O_TAXABLE = 'EtpSuperableTypeOTaxable';
@@ -475,6 +476,12 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
     public const PAY_CATEGORY_TYPE_BACK_PAYMENT = 'BackPayment';
     public const PAY_CATEGORY_TYPE_PAID_FAMILY_AND_DOMESTIC_VIOLENCE_LEAVE = 'PaidFamilyAndDomesticViolenceLeave';
     public const PAY_CATEGORY_TYPE_GST = 'GST';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_D = 'EtpTypeD';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_N = 'EtpTypeN';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_B = 'EtpTypeB';
+    public const PAY_CATEGORY_TYPE_ETP_TYPE_T = 'EtpTypeT';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAXABLE = 'EtpSuperableTypeRTaxable';
+    public const PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAX_FREE = 'EtpSuperableTypeRTaxFree';
     public const RATE_UNIT_HOURLY = 'Hourly';
     public const RATE_UNIT_ANNUALLY = 'Annually';
     public const RATE_UNIT_FIXED = 'Fixed';
@@ -578,6 +585,7 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
             self::PAY_CATEGORY_TYPE_ETP_TYPE_O_TAXABLE,
             self::PAY_CATEGORY_TYPE_ETP_TYPE_O_TAX_FREE,
             self::PAY_CATEGORY_TYPE_ETP_LUMP_SUM_D,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_LUMP_SUM_D,
             self::PAY_CATEGORY_TYPE_GENUINE_REDUNDANCY_LEAVE_LOADING,
             self::PAY_CATEGORY_TYPE_METHOD_B2_ADDITIONAL_PAYMENTS_OPENING_BALANCE,
             self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_O_TAXABLE,
@@ -605,6 +613,12 @@ class AuPayCategoryModel implements ModelInterface, ArrayAccess, \JsonSerializab
             self::PAY_CATEGORY_TYPE_BACK_PAYMENT,
             self::PAY_CATEGORY_TYPE_PAID_FAMILY_AND_DOMESTIC_VIOLENCE_LEAVE,
             self::PAY_CATEGORY_TYPE_GST,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_D,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_N,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_B,
+            self::PAY_CATEGORY_TYPE_ETP_TYPE_T,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAXABLE,
+            self::PAY_CATEGORY_TYPE_ETP_SUPERABLE_TYPE_R_TAX_FREE,
         ];
     }
 
