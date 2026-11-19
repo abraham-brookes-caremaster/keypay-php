@@ -8,7 +8,7 @@
 A client library for the [KeyPay API](https://api.keypay.com.au/), built from the provided [OpenAPI v2 specification](https://api.keypay.com.au/swagger-au.json) using the [OpenAPI Generator](https://opencollective.com/openapi_generator)
 
 ## Requirements
-- PHP 7.4
+- PHP 8.2
 ## Installation
 
 You can install the package via composer:
